@@ -3,16 +3,17 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Goldman', sans-serif;
 }
 
 
 /*------------------------------------------------------------------------------*/
 .container {
     width: 100%;
-    height: 100vh;
     padding-left: 8%;
     padding-right: 8%;
     box-sizing: border-box;
+
 }
 
 .navbar {
@@ -22,8 +23,10 @@
 }
 
 .logo {
-    width: 50px;
-    cursor: pointer;
+    width: 100px;
+    filter: invert(100%);
+  margin-top: 30px
+
 }
 
 nav {
@@ -49,7 +52,8 @@ nav ul li a {
 }
 
 .col {
-    flex-basis: 50%;
+    flex-basis: 100%;
+    margin: auto
 }
 
 h1 {
@@ -119,7 +123,8 @@ h3 {
 .Second_row {
     height: auto;
     margin-top: 30px;
-    background: #FBFBFB;
+    background: green;
+
 }
 
 .Second_para h4 {
@@ -130,26 +135,31 @@ h3 {
 }
 
 .Second_para p {
-    font-size: 22px;
-    text-align: left;
-    width: 80%;
+    font-size: 15px;
+    width: 100%;
     margin: auto;
-    line-height: 20px;
-    word-spacing: 5px;
+    line-height: 25px;
+    word-spacing: 1px;
+    padding: 20px;
 
 }
 
 .Subimage1,
 .Subimage3 {
-    padding: 10px;
-    width: 300px;
-    margin-left: 10%;
+    padding: 20px;
+    width: 100%;
+    margin: auto
 }
 
-.image2_box {}
+.image2_box {
+    margin: auto;
+    width: 100%;
+    padding: 20px;
+}
 
 .Subimage2 {
-    width: 350px
+    width: 350px;
+    padding: 20px;
 }
 
 .Image_btn2 {
@@ -161,24 +171,44 @@ h3 {
     font-size: 15px;
     text-decoration: none;
     color: black;
-    margin-left: 55px;
+    margin: auto;
+    margin-left: 5%
 }
 
 .image1_box {}
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------*/
-
 .Third_Section {
-    background-color: antiquewhite;
+    background-color: white;
     margin-top: 35px;
+
 }
 
-.Third_Div_row {
-    padding: 20px 40px 20px 40px;
+.main_div {
+    display: flex
+}
+
+.image3_box {
     display: flex;
-    background-color: white;
-    margin: auto;
-    width: 100%;
+    width: 50%;
+    padding: 20px
+}
+
+.image4_box {
+    display: flex;
+    width: 50%;
+    padding: 20px;
+   
+}
+
+.ThirdSec_span1 {
+    width: 40%;
+    padding: 25px
+}
+
+.ThirdSec_span2 {
+    width: 50%;
+    padding: 25px
 }
 
 h5 {
@@ -186,72 +216,10 @@ h5 {
     font-size: 50px;
     background-color: white;
 }
-
-.image3_box {
-    width: 500px;
-    text-align: center;
-    display: flex;
-    font-size: 12px;
-    padding: 0px 50px 0 50px;
-}
-
-.image4_box {
-    width: 500px;
-    text-align: center;
-    display: flex;
-    font-size: 12px;
-    float: right;
-    padding: 0px 50px 0 50px;
-}
-
-.ThirdSec_span1 {
-    display: flex;
-    line-height: 20px;
-    font-size: 12px;
-    width: 150px;
-
-}
-
-.ThirdSec_span2 {
-    display: flex;
-    line-height: 20px;
-    font-size: 12px;
-    margin: auto
-}
-
-.image_1,
-.image_2 {
-    height: 100px;
-    vertical-align: middle;
-    padding: 15px
-}
-
-.image4_box span {
-    font-size: 12px;
-    word-spacing: 2px;
-    width: 50%;
-}
-
-.image3_box span {
-    font-size: 12px;
-    word-spacing: 2px;
-
-}
-
-
-/*.Third_Div_row {
-    width: 90%;
-    margin: auto;
-    background-color: aquamarine;
-    font-size: 12px;
-    text-align: center;
-
-}*/
 /*------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 .Grid_Image {
     margin-top: 30px;
-    width: 100%;
-    margin: auto
+  
 }
 
 .Grid_Image h4 {
@@ -263,7 +231,7 @@ h5 {
 
 .grid_Row1,
 .grid_Row2 {
-    display: flex;
+    display: inline-flex;
 
 }
 
@@ -308,9 +276,7 @@ h5 {
     color: #BDBDBD;
 }
 
-.Contact_Form {
-    height: 400px
-}
+.Contact_Form {}
 
 .contact_formImage {
     width: 100%;
@@ -335,18 +301,101 @@ p {
 }
 
 .Image_btn4 {
-    padding: 10px 10px 10px 10px;
-    border-radius: 00px;
-    background: aqua;
-    width: 150px;
+    padding: 20px 20px 20px 20px;
+    width: 30%;
     text-align: center;
     border: 1px solid grey;
     font-size: 15px;
     text-decoration: none;
     color: black;
-    float: right;
+    float: left;
     color: #FFFFFF;
     background: #333333;
+    height: auto;
+
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------------------------------------*/
+.originalLogo {
+    width: 110px;
+    margin-left: 25px;
+
+}
+
+footer {
+    background: #2C2C2C;
+    margin-top: 25px;
+
+}
+
+.footer-nav li {
+    list-style: none;
+    padding: 10px;
+
+}
+
+.footer-nav li a {
+    color: white;
+    text-decoration: none;
+
+}
+
+.footer-list h6 {
+    padding: 10px;
+}
+
+footer h6 {
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.footer-icons {
+    color: white;
+    font-size: 15px;
+    word-spacing: 5px;
+    line-height: 2px
+}
+
+.footer-icons h6 {
+    padding: 20px
+}
+
+.fa-map-marker,
+.fa-phone,
+.fa-envelope-o {
+    padding: 20px
+}
+
+.footer-social-icons {
+    color: white;
+    font-size: 15px;
+    word-spacing: 5px;
+    font-size: 25px;
+    cursor: pointer;
+
+
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram,
+.fa-pinterest-square {
+    padding: 10px;
+}
+
+footer text {
+    font-size: 15px;
+    color: rgba(200, 200, 200, 0.5);
     margin: auto;
-    margin-left: 125px
+    padding: 20px
+}
+
+footer text:before {
+    content: ' \00A9';
+
 }

@@ -1,4 +1,61 @@
 /*BIG TABLET TO 1200PX (WIDTH SMALLER THAN THE 1140 PX ROWS) */
-@media only screen and (max-width:1200px){
+@media only screen and (max-width:1200px) {.col {
+    flex-basis: 100%;
+    margin: auto
+}
+}
+
+/*SMALL TABLETS TO BIG TABLETS-IPAD IN LANDSCAPE PHONES(768 TO 1023PX)*/
+@media only screen and (max-width:1023px) {
+    .Subimage2 {
+        width: 120%;
+        padding: 20px;
+
+    }
+
+    .Second_para p {
+
+        width: 100%;
+        margin: auto;
+        font-size: 15px
+    }
+
+    .Subimage1,
+    .Subimage3 {
+        width: 120%;
+        margin: auto
+    }
+
+    .Image_btn2 {
+        padding: 10px 10px 10px 10px;
+        width: 80%;
+        font-size: 15px;
+        margin: auto;
+    }
+}
+/*SMALL PHONES TO SMALL TABLETS (IPAD-PHONES)-481 TO 767PX PIXELS*/
+@media only screen and (max-width:767px){
+/*    .Second_para p {
+    font-size: 15px;
+    width: 200%;
+    margin: auto;
+    line-height: 25px;
+    word-spacing: 1px;
+    padding:20px;
+
+}
+    .Second_row {
+    height: auto;
+    margin-top: 30px;
+    background: green;
+        width: 100%;
+        margin: auto;
+        
   
+}*/
+
+.col {
+    flex-basis: 100%;
+    margin: auto
+}
 }
